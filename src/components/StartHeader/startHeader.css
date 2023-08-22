@@ -1,0 +1,101 @@
+.welcomeBack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: calc(100vh - 150px);
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+  background-image: url(../SummerList/assets/BackgroundImage.svg);
+  background-size: cover;
+  font-weight: 580;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 40px 65.02px 25px 65px;
+  justify-content: space-between;
+  align-items: flex-start;
+  z-index: 3;
+}
+
+.logo {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.loginBtn {
+  color: #9EA0A1;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  transition: all 0.1s;
+}
+
+.loginBtn:hover {
+  color: #ffffff;
+}
+
+.welcomeCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 500;
+  height: 332px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  width: 1015px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.welcomeTextFirst {
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.welcomeTextSecond {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.welcomeTextFirst, .welcomeTextSecond {
+  font-family: Rubik, sans-serif;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  z-index: 3;
+}
+
+.welcomeTheme {
+  width: 100%;
+  height: 100%;
+  max-height: calc(100vh - 150px);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3) 20%, #000);
+  position: absolute;
+}
+
+/*# sourceMappingURL=startHeader.css.map */

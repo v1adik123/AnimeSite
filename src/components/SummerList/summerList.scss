@@ -1,0 +1,42 @@
+.catalogText {
+  color: #FFF;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-left: 70px;
+  margin-top: 37px;
+  margin-bottom: 18px;
+}
+
+.episodeList {
+  color: #ffffff;
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 65px;
+
+  .catalogCard {
+    min-width: 310px;
+    max-width: 310px;
+    min-height: 172px;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.00) 100%), url(../StartHeader/assets/1summerSeason.jpg), lightgray 0px 0px / 100% 244.339% no-repeat;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.2s;
+
+    .catalogDescrip {
+      padding: 153px 94px 4px 10px;
+      color: #FFF;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .catalogCard:hover {
+    transform: scale(1.05);
+  }
+}
